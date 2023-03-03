@@ -32,7 +32,7 @@ form{
 input {
   background-color: white;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
   .top {
 	  width: 200px;
 	  float: left;
@@ -42,10 +42,9 @@ input {
 	  margin-left: 200px;
   }
 }
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 2000px){
     .top {
 		background-color:#191970;
-		width:70%;
 		margin:auto;
 		margin-top:15px;
 		padding:1em;
