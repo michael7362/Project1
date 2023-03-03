@@ -1,0 +1,29 @@
+html {
+
+}
+
+input {
+  background-color: grey !important;
+}
+
+p {
+  background-color: blue !important;
+}
+
+a {
+  background-color: #00AA00 !important;
+  /* outline:1px dashed black !important; */
+}
+
+h1{
+  background-color: #FFF000 !important;
+}
+
+h2, h3, h4, h5, h6{
+  background-color: #FFA000 !important;
+}
+
+li {
+  background-color: grey !important;
+  /* outline: 1px dashed grey !important; */
+}
