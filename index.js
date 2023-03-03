@@ -131,7 +131,7 @@ $('#sign-up').on('submit', function(e) { //someone wants to submit
   // check TOS checkbox
   if(checkBox($(elems["accept"])))
   {
-    log('TOS Ok!');
+    log('Terms of Service and Conditions Ok!');
     $(problemsID).append(invisLi);
   }
   else
