@@ -53,8 +53,34 @@
 		<p>
 		  Vote! Vote! Vote! Incorporate voting into your schedule. Sacrifice that lunch break, the extra 15 minutes of time before work after you drop off
 		  your kids to school, delay a plan if necessary. Set reminders, watch the news, subscribe to various social media accounts representing your city
-		  or state politics. Below is a form that you can fill out asking you to input basic information like your name, email, address and phone number,
-		  where you'll be enrolled in reminders via phone call, text message, email, and mail. You can select which services you'd like to opt out of.
-		  Thank you for your interest in learning a little bit more about voting, and most importantly, your interest in making a change!
+		  or state politics. Below is a form that you can fill out asking you to input basic information like your name, email, and phone number,
+		  where you'll be enrolled in reminders via phone call, text message, and email of upcoming voting dates and locations. Thank you for your interest in learning a 
+		  little bit more about voting, and most importantly, your interest in making a change!
 		</p>
 	  </section>
+	  <form id="sign-up" action="#null" method="get">
+        <ol>
+          <li>
+            <label for="email">Email</label>
+            <input pattern="^(.+?)@(.+?)$" type="email" id="email" name="email" />            
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input pattern=".+?(\d+?)" type="tel" id="phone" name="phone" />            
+          </li>
+          <li>
+            <label for="name">First Name</label>
+            <input type="text" id="fname" name="fname"/>
+          </li>
+		  <li>
+            <label for="name">Last Name</label>
+            <input type="text" id="lname" name="lname"/>
+          </li>
+          <li>
+            <label for="accept">I accept the <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Services and Conditions</a></label>
+            <input type="checkbox" id="accept" name="accept"/>
+          </li>
+        </ol>
+        <input id="submit" type="submit" value="Thank You! Vote and make the change You need!"/>
+      </form>
+	</main>
