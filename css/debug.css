@@ -3,6 +3,9 @@ body{
   text-align:center;
   margin:10px;
   padding:10px;
+  width: 900px;
+  position:center;
+  padding-left:200px;
 }
 p,h1,h2{
   font-family:Oswlad, monospace;
@@ -29,7 +32,6 @@ form{
   padding:35px;
   margin-top:15px;
   margin-bottom:15px;
-  text-align: auto;
 }
 input {
   background-color: white;
@@ -46,9 +48,6 @@ input {
 	  margin:auto;
 	  margin-top:10px;
       padding:2em
-  }
-  .ol {
-	  margin-left: 200px;
   }
 }
 @media only screen and (min-width: 2000px){
